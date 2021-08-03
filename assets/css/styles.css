@@ -186,6 +186,11 @@ body.scale-cv {
   column-gap: 2.5rem;
 }
 
+.scale-cv .references__contact {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
