@@ -125,5 +125,5 @@ scaleCv();
 generateResume();
 
 // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
- setTimeout(removeScale, 3000);
+ setTimeout(removeScale, 1000);
 })
