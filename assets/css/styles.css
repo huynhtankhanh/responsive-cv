@@ -608,6 +608,12 @@ nav__toggle {
 }
 
 /* For small devices, menu two columns */
+@media screen and (max-width: 350px) {
+  .experience__line {
+    height: 105%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .interests__container {
     grid-template-columns: repeat(4, max-content);
