@@ -233,7 +233,7 @@ img {
 }
 /*========== CLASS CSS ==========*/
 section {
-  padding: 1.5rem 0;
+  padding: 1rem 0 1rem 0;
 }
 
 .section-title {
@@ -479,27 +479,36 @@ nav__toggle {
 
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, max-content);
 }
 
 .languages__content {
-  display: grid;
   gap: 0;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .skills__data {
   display: grid;
-  gap: 0.5rem;
+  gap: 0;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.languages__data {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .skills__name,
 .languages__name {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-1);
+}
+
+.languages__name {
+  gap: 0;
+  margin-bottom: 0;
 }
 
 .skills__circle,
