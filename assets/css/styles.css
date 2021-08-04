@@ -263,7 +263,7 @@ section {
 /*========== LAYOUT ==========*/
 .bd-container {
   max-width: 968px;
-  width: calc(100%-3rem);
+  width: calc(100% - 3rem);
   margin-left: var(--mb-3);
   margin-right: var(--mb-3);
 }
