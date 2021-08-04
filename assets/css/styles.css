@@ -476,7 +476,8 @@ nav__toggle {
 }
 
 .education__title,
-.experience__title {
+.experience__title,
+.certificates__title {
   margin-top: 0;
   font-size: var(--h3-font-size);
 }
