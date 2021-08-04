@@ -574,6 +574,12 @@ nav__toggle {
 }
 
 /* For small devices, menu two columns */
+@media screen and (min-width: 768px) {
+  .interests__container {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 3.5rem;
+  }
+}
 
 /* Classes modified for large screen size */
 @media screen and (min-width: 968px) {
@@ -605,6 +611,7 @@ nav__toggle {
   .generate-pdf {
     display: block;
   }
+
   .resume__left,
   .resume__right {
     padding: 0 1.5rem;
