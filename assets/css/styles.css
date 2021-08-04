@@ -111,7 +111,16 @@ body.scale-cv {
 
 .scale-cv .resume__left,
 .scale-cv .resume__right {
+  background-color: #fff;
+}
+
+.scale-cv .resume__left {
   padding: 0 1rem;
+  background-color: #fff;
+}
+
+.scale-cv .resume__right {
+  padding-top: 1rem;
 }
 
 .scale-cv .section-title {
